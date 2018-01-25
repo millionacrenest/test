@@ -128,7 +128,7 @@ class ViewController: UIViewController {
 extension ViewController: PhotoEditViewControllerDelegate {
     func photoEditViewController(_ photoEditViewController: PhotoEditViewController, didSave image: UIImage, and data: Data) {
         
-        print("data: \(data)")
+       
         
         dismiss(animated: true, completion: nil)
         
